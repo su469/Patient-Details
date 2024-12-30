@@ -17,7 +17,7 @@ const Table = (props) => {
   }
   return (
     <div className="Container">
-      <table class="table table-bordered">
+      <table className="table table-bordered">
         <thead className="thead">
           <tr>
             <th scope="col">Patient Name</th>

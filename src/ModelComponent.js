@@ -4,7 +4,7 @@ const ModelComponent = ({ data, onClose }) => {
   const { top, left } = data?.position || { top: 0, left: 0 };
   return (
     <div
-      class="modalfade"
+      className="modalfade"
       id="staticBackdrop"
       data-bs-keyboard="false"
       tabindex="-1"
@@ -17,9 +17,9 @@ const ModelComponent = ({ data, onClose }) => {
         zIndex: 1050,
       }}
     >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
+      <div className="modal-dialog">
+        <div className="modal-content">
+          <div className="modal-header">
             <h5>Patient Details</h5>
             <button
               type="button"
